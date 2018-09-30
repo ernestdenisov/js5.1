@@ -7,3 +7,5 @@ http.createServer(function(request, response) {
 }).listen(port, url, function() {
     console.log('start listening on port ' + port);
 });
+
+console.log('finish');
